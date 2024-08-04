@@ -22,12 +22,14 @@ _To add interactivity and dynamic features to OlympiaGear._
 ### Key Features:
 - **Responsive Design**: 
 _Our website looks great on all devices._
-- **Color-Changing Effectt**: 
+- **Color-Changing Effect**: 
 _We used JavaScript to allow users to hover over stuff and watch the color changes._
 - **Sticky Navbar**: 
 _Our navigation bar follows users as they scroll, so you’re never lost in OlympiaGear._
 - **Eye-Catching Media**: 
 _We’ve used some GIFs and videos to keep things interesting and appealing._
+-**Zoom-In Effect**:
+_We've used JavaScript to allow product image to zoom in when pointing._
 
 ## Challenges we ran into
 1. **Scheduling Meetings**: 
