@@ -1,0 +1,693 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styletry1.css">
+	<style>
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+   
+
+}
+
+		#pic{ 
+	transition: transform .2s;
+   	 width:90px;
+   	 height:90px;
+   	 margin:0 auto;	
+	}
+		
+	#pic:hover{
+    transform:scale(2.5);
+		}
+	
+
+
+		button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block !important;
+}
+		html{
+		font-family: 'Bakersville';
+}
+html{
+	font-family: Tahoma, sans-serif;
+}
+
+details > summary {
+  list-style: none;
+  text-decoration: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details {
+    border: 0;
+    border-radius: 0;
+    font-size:30px;
+    width:100%;
+    color: black;
+    font-family: 'Bahnschrift';
+}
+summary {
+  cursor: pointer;
+}
+
+details[open] > summary:before {
+  list-style:none;
+}
+
+details > summary:before {
+  list-style: none;
+  padding-right: 0.5em;
+}
+
+details > summary {
+  font-weight: 0;
+   color: #6a6a6a;
+}
+
+details > p {
+  margin: 0;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+
+.inline-list li {
+  display: block;
+}
+
+.inline-list li:hover {
+  background-color: transparent;
+}
+
+.inline-list a {
+  display:block;
+  color: white;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.inline-list a:hover {
+  text-decoration: none;
+}
+.inline-list p{
+padding: 10px;
+margin-block-start: 0;
+margin-block-end: 0;
+}
+p{
+font-size: 15px;
+}
+
+#xuan li:hover {
+    background-color: white;
+    padding: 15px;
+    margin: -15px;
+}
+#xuan p {
+  padding: 0;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#shammm {
+    background-color: white;
+                border-color: #FEFBFA;
+                text-align: center;
+                font-size:20px;
+                font-family: 'Bakersville';
+			   margin:0px;
+			   border: 0; 
+               height: 300px;
+                width: 92px;
+}
+
+pre{
+font-size: 20px;
+font-family: 'Arial';
+}
+
+	</style>
+
+<link rel="icon" type="image/x-icon" href="Images/olympicfavicon.jpg">
+
+	<title>OlympiaGear |Product</title>
+</head>
+<body style="background-color: white;">
+ 
+	<header>
+	
+		<h1>OlympiaGear</h1>
+	</header>
+
+    <nav id="navbar">
+   
+	
+ 	<fieldset style= " border:0px; margin-top: 10px;"><input type="text" id="search" placeholder="  Search.." name="search"><label for="search" id="search" type="text">&nbsp;&nbsp;<img src="Images/search.jpg" width="23" height="23"></label>
+  
+	<a href="Homepage.html">HOME</a>
+	<a href="#WHAT'S NEW">WHAT'S NEW</a>
+ 	<a href="Women.html">WOMEN</a>
+ 	<a href="Men.html">MEN</a>
+	
+	<a href="#GIFTS">GIFTS</a>
+	<a href="Women.html">COLLECTION</a>
+	<img src="Images/cart.jpg" id="cart" width="23" height="23" id="img">
+	</nav> </fieldset> <br><br><br>
+	<script>
+	window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+	
+	
+	<p align="left">Women | Product | Hoodie</p>
+	<table id="sham" table border="0" style=" margin-right: auto; margin-left:auto;" width="90%" >
+	
+			<tr>
+				<td width="40px"><img src="Images/hoodie1_women.avif" height="100" width="100" id="pic"><br /><br /><img src="Images/hoodie2_women.avif" height="100" width="100" id="pic"><br /><br /><img src="Images/hoodiegrey2.avif" height="100" width="100px" id="pic"><br /><br /><img src="Images/hoodiegrey3.avif" height="100" width="100" id="pic"></td>
+				<td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img src="Images/women_hoodie.avif" height="450px" width="400px" style="padding-left: 10%;"></td>
+	
+		</td>
+		<td width="50px">
+		</td>
+
+
+		<td>
+		
+		<p style="font-size:28px ;  font-family: Tahoma, sans-serif; padding-left: 10px; padding-right: 5px;  " >The Olympic Collection - Hoodie - Womens</p><hr height="0.25px" width=" 100%" style=" margin-inline-start:0;">
+		<h4 style="text-decoration:line-through;">RM265.35</h4><h3 style="color:maroon;">NOW RM199.00</h3>
+		<h5 style="color:#951D1D ">Hurry! 4 more left!</h5><br />
+		<h3>
+            <form>
+				<select style="font-size:18px; height: 30px; font-family:'Arial'; border-color: grey; border-radius: 0.3em;">
+					<option value="Colour"selected>Colour: </option>
+					<option value="Colour1">Black</option>
+					<option value="Colour2">Grey</option>
+				</select>
+			</form>
+			<form>
+				<select style="font-size:18px; height: 30px; font-family:'Arial'; border-color: grey; border-radius: 0.3em;">
+					<option value="Volume"selected>Size: </option>
+					<option value="size1">XS</option>
+					<option value="size2">S</option>
+					<option value="size3">M</option>
+                    <option value="size4">L</option>
+					<option value="size5">XL</option>
+                    <option value="size6">2XL</option>
+				</select>
+			</form>
+			<form>
+				<select style="font-size:15px; height: 30px; font-family:'Arial'; border-color: grey; border-radius: 0.3em;">
+					<option value="qty"selected>QTY:</option>
+					<option value="qty1">1</option>
+					<option value="qty2">2</option>
+					<option value="qty3">3</option>
+                    <option value="qty4">4</option>
+					<option value="qty5">5</option>
+				</select>
+			</form>
+		</h3>
+		
+<a href="#"><button style="  border-radius: 0.3em; font-family:'Bahnschrift';
+  color: white; background-color: #951D1D; border:0; font-size: 20px; width: 220px; height: 40px; align: center; z-index:-1;" > ADD TO CART </button></a>
+		<br /><br /><br /><p style=" padding-left:0px; ">Standard shipping within Malaysia and United Arab Emirates only!</p><hr height="0.25px" width=" 100%" style=" margin-inline-start:0;">
+		</td>
+	</tr></table>
+
+<br /><br />
+
+<table border="0" height="100px">
+    <tr>
+        <td style="width: 757px;" >
+<ul id="xuan" style="cursor: pointer; 
+list-style-type: none;
+border: 0;
+padding: 15px;
+margin: 0px;
+background-color: #d3d3d3;
+">
+<li>
+<details>
+	
+  <summary ><pre>SHIPPING & RETURNS INFO                                                                            +</pre></summary>
+  <table border="1" cellspacing="0" width="70%">
+    <tr>
+      <td><p>Shipping Service & Fee</p></td>
+      <br /><br />
+      <td><p>Delivery Estimate</p></td>
+    </tr>
+    <tr>
+      <td><p>Premium Express</p>
+        <p>Free</p>
+    </td>
+      <td><p>Estimated delivery within 2 – 3 business days.</p></td>
+    </tr>
+    <tr>
+      <td><p>Standard</p>
+        <p>Free</p></td>
+      <td><p>Estimated delivery within 2 - 5 business days.</p>
+        </td>
+    </tr>
+    <tr>
+        <td><p>Next Business Day:</p>
+            <p>$25</p></td>
+        <td><p>Order by 4pm EST on a business day.</p>
+
+            <p>Delivery between 9am - 8pm, Monday to Friday.</p></td>
+      </tr>
+      <tr>
+        <td><p>Collect In-Store:</p>
+            <p>Free</p></td>
+        <td><p>Delivery in 1-2 business days</p>
+
+            <p>Store Collection Period: 14 days</p></td>
+      </tr>
+  </table>
+  <br /><br />
+  <p >A signature will be required upon delivery.
+    </p>
+    <br />
+    <p>
+    Pre-order, Made to Order and DIY items will ship on the estimated date noted on the product description page. These items will ship through Premium Express once they become available.
+    </p>
+    <br />
+    <p>
+    Returns may be made by mail or in store*. The return window for online purchases is 30 days (10 days in the case of beauty items) from the date of delivery. You may return items by selecting "Return this Item" from your MY OLYMPIC account under order details, through your delivery confirmation email or by contacting a Client Advisor. Once the request has been approved, your prepaid shipping label will be emailed to you or will be available for download in your MY OLYMPIC account.
+    </p>
+    <br />
+    <p>
+    For Collect In-Store orders, we offer a 30-day return/exchange window in-store or by contacting Client Services. The return window starts on the day when your item was made available for collection.
+    </p><br />
+    <p>Items must remain in their original condition with all labels attached and intact. Please note, Made to Order and personalized items are not returnable.</p>
+    <br />
+    <p>
+    Additional information is available during the checkout process or on the FAQs Section.
+    </p>
+    <br />
+    <p>
+    *Please note that we cannot offer the in-store return service for any Vault items. For more information, read the "Return a Vault item" section on the FAQs.
+    </p>
+    <br />
+    <p>
+    CANADA</p>
+    <br /><br />
+<table border="0" cellspacing="0">
+    <tr >
+        <td>
+            <p>Shipping Service & Fee</p>
+        </td>
+        <td>
+            <p>Delivery Estimate</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Standard (Fragrance only)</p>
+            <p>Free</p>
+        </td>
+        <td>
+            <p>Click here to view shipping and delivery</p><p>information.</p>
+        </td>
+    </tr>
+</table>
+<br /><br /><br /><br /><br />
+</details>
+</li>
+
+
+
+</ul>
+
+<ul id="xuan" style="cursor: pointer; 
+list-style-type: none;
+border: 0;
+padding: 15px;
+margin: 0px;
+background-color: #d3d3d3;
+">
+<li>
+<details>
+	
+    <summary ><pre>SIZE CHART                                                                                                       +</pre></summary>
+    <br>
+    <img src="Images/sizechart.webp" alt="shirt_size" width="500" height="600" style="margin-left: 15%;">
+  </details>
+
+
+
+
+
+
+
+
+
+
+</li>
+</ul>
+<ul id="xuan" style="cursor: pointer;
+list-style-type: none;
+border: 0;
+padding: 15px;
+margin: 0px;
+background-color: #d3d3d3;">
+
+    <li>
+    <details>
+        
+      <summary ><pre>PAYMENT OPTIONS                                                                                          +</pre></summary>
+      <br />
+      <table border="0" cellspacing="0">
+        <tr>
+            <td colspan="2" style="font-size: 15px;">
+                <b>Olympic accepts the following forms of payment for online purchases:</b>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul class="inline-list" style="
+                list-style-type: none;
+                border: 0px;
+                padding: 0px;
+                margin: 0px;
+                background-color: transparent;
+                font-size: 20px;">
+                    <li><p>Visa</p></li>
+                    <li><p>MasterCard</p></li>
+                    <li><p>ApplePay</p></li>
+                    <li><p>Amazon Pay</p></li>
+                    <li><p>Pay Monthly With Affirm</p></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="inline-list" style="
+                list-style-type: none;
+                border: 0px;
+                margin:0;
+                padding: 0;
+                background-color: transparent;
+                font-size: 20px;">
+                    <li><p>American Express</p></li>
+                    <li><p>PayPal</p></li>
+                    <li><p>Discover</p></li>
+                    <li><p>JCB</p></li>
+                    <li><p>Union Pay</p></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img src="Images/payment.jpg" width="350px" height="150px"/>
+            </td>
+        </tr>
+    </table>
+    <br />
+      <p >New: Shop on Olympic.com with monthly payments.</p>
+      <br /><br />
+      <p>PayPal may not be used to purchase Made to Order Décor or DIY items.</p>
+      <br />
+      <p>The full transaction value will be charged to your credit card after we have verified your card details,<br />
+       received credit authorisation, confirmed availability and prepared your order for shipping. For Made <br />
+       To Order, DIY, personalised and selected Décor products, payment will be taken at the time the order <br />
+       is placed.</p>
+      <br />
+      <p>For more information about payment, visit our FAQs Section.</p>
+    </details>
+    </li>
+</ul>
+<ul id="xuan" style="cursor: pointer;
+list-style-type: none;
+border: 0;
+padding: 15px;
+margin: 0px;
+
+background-color: #d3d3d3;">
+
+    <li>
+    <details>
+        
+      <summary ><pre>OUR CUSTOMER SERVICE                                                                              +</pre></summary>
+      <br />
+      <p>Our customer service is available for 24 hours</p>
+      <p>Contact us for any enquiries using the following number: </p>
+      <p>9am-5pm: +6012-2334433</p>
+      <p>None-working hours: +6012-2938474</p>
+    </details>
+    </li>
+</ul>
+        </td>
+        <td style="width: 50px;"> </td>
+
+    <td><b>DETAILS</b><br>
+        <ul>
+            <li>
+                Product ID: 13361473
+            </li>
+            <li>
+                Brand: Fanatics Branded
+            </li>
+            <li>
+                Country of origin: Bangladesh
+            </li>
+            <li>
+                80% cotton/20% polyester
+            </li>
+            <li>
+                Drawstring hood
+            </li>
+            <li>
+                Elastic cuffs and hem
+            </li>
+            <li>
+                Kangaroo pocket
+            </li>
+            <li>
+                Official Olympic merchandise
+            </li>
+            <li>
+                Printed graphics
+            </li>
+            <li>
+                Long sleeve
+            </li>
+            <li>
+                Officially licensed
+            </li>
+        </ul>
+        <br>
+        <hr style="width: 80%; text-align: left; margin-left: 0;"><br><br>
+        <b>DESCRIPTION:</b><br>
+        <p style="padding: 0px; margin-left: 0px; margin-right: 0px; line-height: 1.8;">
+        &emsp;&emsp;Getting ready for a workout? Cooling down after training? <br>Meeting up with friends? Whatever your next move, 
+        this hoodie<br> is a natural first choice for
+        the job.  The Olympic rings and basic <br>colour create an everyday style 
+        you can sport anywhere, while the<br> soft cotton takes comfort to the next level. Perfect as a gift to 
+        <br>friends, family and yourself.
+        </p>
+    </td>
+</tr>
+
+<tr><td colspan="3">
+<br /><br />
+<ul style="cursor: pointer; color:black; list-style-type: none; padding: 0px;" >
+<li>
+
+		<p style=" color:black;font-size:26px;"><br />TOP REVIEWS</b></p><hr width="90%" align="middle">
+	
+		
+		<p style="color:maroon;font-size:18;"><br />Sarah Hyland</b> <br /> <img src="Images/5star.jpg" height="35" width="105"><p style=" color: grey; font-size: 12;">2023-01-12 02:21 | Variation: Black</p> </p><p style=" font-size: 16;">The quality of this hoodie is outstanding. It's warm and cozy without being too heavy, making it perfect for all seasons. The black color is versatile and matches with almost everything in my wardrobe.</p><hr width="90%" align="middle">
+		
+		<p style="color:maroon;font-size:18;"><br />Sofia Vergara</b><br /> <img src="Images/1star.jpg" height="26" width="105"> <br /><p style=" color: grey; font-size: 12;">2023-02-17 13:28 | Variation: Black</p><p style=" font-size: 16;">I’m very disappointed with this hoodie. The black color faded significantly after only a couple of washes, and the seams began to unravel within a week. It looks old and worn out now.</p> <hr width="90%" align="middle">
+		
+	
+	<p style="color:maroon;font-size:18;"><br />Aubrey Anderson</b> <br /> <img src="Images/4star.jpg" height="22" width="100"> <br /><p style=" color: grey; font-size: 12;">2023-03-19 18:59 | Variation: Grey</p> <p style=" font-size: 16;">TThis hoodie is incredibly comfortable and stylish. The fabric is soft against the skin, and the fit is perfect. I've worn it several times already, and it still looks brand new. Highly recommend!</p><hr width="90%" align="middle"></td></tr>
+</td>
+</tr>
+</table>
+<br /><br /><br />
+        <table id="shammm" border="0" style="width: 100%">
+            <tr>
+                <td colspan="3"  style="color:white;background-color:maroon;font-size:30px; border-radius: 0.3em; font-family: Bahnschrift;">RECOMMENDED FOR YOU</td>
+            </tr>
+            <tr >
+                <td style=" font-family: Bahnschrift; width: 33.33%;"><figure><a href="#"><img src="Images/Olyumbrella.png" alt="The Olympic Collection Automatic Umbrella" height="200" width="200"></a></figure><a href="#">The Olympic Collection Automatic Umbrella</a><h5>RM170.90</h5></td>
+    
+                <td style=" font-family: Bahnschrift; width: 33.33%;"><figure><a href="#"><img src="Images/Olybag.png" alt="The Olympic Collection Backpack - Picto" height="200" width="200"></a></figure><a href="#">The Olympic Collection Backpack - Picto</a><h5>RM253.00</h5></td>
+    
+                <td style=" font-family: Bahnschrift; width: 33.33%;"><br /><br ><figure><a href="#"><img src="Images/Olyhat.png" alt="The Olympic Collection Beanie" height="200" width="200"></a></figure><a href="#">The Olympic Collection Beanie</a><h5 style="text-decoration:line-through;">RM134.90</h5><h5 style="color:red;">RM101.20 (Only Today!)</h5></td>
+            </tr>
+            </table>
+    </tr>
+    </table>
+<br /><br /><br /><br /><br /><br /><br />
+
+
+
+		
+
+	
+			
+<footer>
+<link rel="stylesheet" href="stylexuan.css">
+                <table border="0" cellspacing="0" style="font-family: 'Bahnschrift' ;" >
+                <tr>
+                    <td>
+                    <form>
+                    <br />
+
+                    <nav>
+                        <ul>
+                            <li>
+                                <h3><a href="#" style="color: white">customer service</a></h3>
+                            </li>
+                            <li>
+                                <h3>
+                                    <a href="mailto:hfywc15@nottingham.edu.my">contact us</a>
+                                </h3>
+                            </li>
+                            <li>
+                                <h3>
+                                    <a href="#">store locator</a>
+                                </h3>
+                            </li>
+                            <li>
+                                <h3><a href="#">shipping and returns</a></h3>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h3><a href="#" style="color: white">service</a></h3>
+                            </li>
+                            <li>
+                                <h3><a href="#">made to measure</a></h3>
+                            </li>
+                            <li>
+                                <h3><a href="#">style consultants</a></h3>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h3><a href="#" style="color: white">the company</a></h3>
+                            </li>
+                            <li>
+                                <h3><a href="#">about us</a></h3>
+                            </li>
+                            <li>
+                                <h3><a href="#">privacy policy</a></h3>
+                            </li>
+                            <li>
+                                <h3><a href="#">accessibility</a></h3>
+                            </li>
+                        </ul>
+                        </nav>
+                         </td>
+                        <td>
+                        <p style="color:white; text-align: left; font-family: 'Times New Roman'; " >Sign up to received the latest news, updates <br />and member benefits. 
+                            More details on this are <br />provided in our 
+                            <a href="#" style="color:white;text-decoration: underline; font-family: 'Times New Roman';">Privacy Policy</a>
+                            <fieldset>
+                                <label style="padding: 0px 0px">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input id="email" type="text" name="email" placeholder="Email Address"/>
+                                </label>
+                                <button style="text-align: center;"  type="submit" id="email" value=">">>
+                                </button>
+                            </fieldset>
+                        </p>
+                        </td>
+                    </tr>
+                </table>
+                    </nav>
+                    <hr style="opacity: 0.25;">
+                    <br />
+                    <nav style="color: white; text-align: right;">
+                        <ul style="color: white ; text-align: right;" >
+                            <li style="background-color: #4A2574; text-decoration: none; font-family:'Bahnschrift';">
+                                <h4>FOLLOW US:</h4>
+                            </li>
+                            <li style="padding: 0px;">
+                                <figure>
+                                <a href="#"><img  alt="facebook" src="Images/facebook.png" width="35px" height="35px" title="facebook"/>
+                                </a>
+                            </figure>
+                            </li>
+                            <li style="padding: 0px;">
+                                <figure>
+                                <a href="#"><img alt="twitter" src="Images/twitter.png" width="35px" height="35px" title="twitter"/>
+                                </a>
+                                </figure>
+                            </li>
+                            <li style="padding: 0px;">
+                                <figure>
+                                <a href="#"><img alt="youtbe" src="Images/youtube.png" width="35px" height="35px" title="youtube"/>
+                                </figure>
+                                </a>
+                            </li>
+                            <li style="padding: 0px">
+                                <figure>
+                                <a href="#"> <img alt="instagram" src="Images/instagram.png" width="35px" height="35px" title="instagram"/>
+                                </a>
+                                </figure>
+                            </li>
+                            <li style="padding: 0px;">
+                                <figure>
+                                <a href="#"> <img alt="pinterest" src="Images/pinterest.png" width="35px" height="35px" title="pinterest"/>
+                                </a>
+                                </figure>
+                            </li>
+                        </ul>
+                    </nav>
+                    </ul>
+		</footer>
+
+
+	
+	</body>
+</html>

@@ -1,0 +1,72 @@
+
+
+  
+ footer{
+		
+       background: linear-gradient( #4A2574 ); 
+		margin: -30px;
+	    margin-left:1%;
+		
+        }
+            nav ul{
+
+			
+            color: rgb(140, 137, 137);
+            padding-left: 0px;
+            text-align: left;
+            font-size: 100%;
+            text-transform: uppercase;
+            }
+
+            nav ul li:hover {
+            background-color: #AF7AC5    ;
+            text-decoration: underline;
+            }
+            nav ul li{
+		
+font-size: 18px;
+            display: inline-block;
+            padding: 0px 30px;
+            }
+            a{
+            color: #D0D3D4 ;
+            text-decoration: none;
+	   font-family:'Bahnschrift';
+
+            }
+            article{
+            color:white;
+            }
+            input{
+            border-style: hidden;
+            width: 50%;
+            border-radius: 0;
+            height: 28px;
+            padding: 0px 10px;
+            font-size: 12px;
+            text-indent: 0;
+            display: inline-block;
+            }
+            button{
+            cursor: pointer;
+            border-radius: 0;
+            height: 28px;
+            width:28px;
+            border-style: hidden;
+            position: absolute;
+            padding: 0px 0px;
+            }
+            button:hover{
+           	 background-color:#C1B5E6 ;
+
+            }
+            fieldset{
+            border: 0
+            }
+            h3{
+            color:white;
+            }
+            p{
+            padding: 10px 100px;
+            }
+
