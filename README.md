@@ -28,10 +28,10 @@ _We used JavaScript to allow users to hover over stuff and watch the color chang
 _Our navigation bar follows users as they scroll, so you’re never lost in OlympiaGear._
 - **Eye-Catching Media**: 
 _We’ve used some GIFs and videos to keep things interesting and appealing._
--**Zoom-In Effect**:
+- **Zoom-In Effect**:
 _We've used JavaScript to allow product image to zoom in when pointing._
--**Semantic Elements**:
-_We also used semantic elements in our html code to express the contents clearly. Instead of using non-semantic elements <div> and <span>, we use  <form> , <table> , <footer>, etc.._
+- **Semantic Elements**:
+_We also used semantic elements in our html code to express the contents clearly. Instead of using non-semantic elements 'div' and 'span', we use  'form', 'table', 'footer', etc._
 
 ## Challenges we ran into
 1. **Scheduling Meetings**: 
